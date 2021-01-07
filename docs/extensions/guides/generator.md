@@ -36,7 +36,7 @@ Then, open Lens, you should see a Hello World item in the menu:
 
 Try to change `my-first-lens-ext/renderer.tsx` to "Hello Lens!":
 
-```tsx
+```typescript
 clusterPageMenus = [
     {
         target: { pageId: "hello" },
